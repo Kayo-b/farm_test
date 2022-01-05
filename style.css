@@ -1,0 +1,64 @@
+#container {
+    display:flex;
+    justify-content:space-around;
+
+}
+
+h1 {
+    text-align: center red;
+}
+*{
+    
+    background-color: #9cdcf4;
+}
+
+div{
+    background: url(farm.jpg);
+    margin:20px;
+    height:1000px;
+    width:1000px
+}
+
+#pig{
+  
+    background-image: url("pig.png");
+    background-size: cover;
+    height:85px;
+    width:110px;
+    border-radius:5px;
+    padding:0px;
+    
+
+    
+}
+
+#cow{
+    background-image: url("cow.png");
+    background-size: cover;
+    height:85px;
+    width:110px;
+    border-radius:5px;
+    padding:0px;
+
+}
+
+#chick{
+
+    background-image: url("chick.png");
+    background-size: cover;
+    height:85px;
+    width:110px;
+    border-radius:5px;
+    padding:0px;
+}
+
+#pig:hover{
+    background-color: pink;
+}
+#cow:hover{
+    background-color: white;
+}
+#chick:hover{
+    background-color: yellow;
+}
+
